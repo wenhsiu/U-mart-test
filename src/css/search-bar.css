@@ -1,0 +1,29 @@
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search {
+  margin-left: 10px;
+  height: 40px;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.input-field {
+  width: 300px;
+  height: 40px;
+  font-size: 14px;
+  border: 1px solid #fff;
+  border-bottom: solid;
+}
+
+@media (max-width: 400px) {
+  .search-bar {
+    margin: 10px 0px;
+  }
+
+  .input-field {
+    width: 200px;
+  }
+}

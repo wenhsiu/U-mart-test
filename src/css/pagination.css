@@ -1,0 +1,16 @@
+.page-numbers {
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.number {
+  border: 1px solid #ff0000;
+  width: 25px;
+  text-align: center;
+  margin-right: 10px;
+  color: #ff0000;
+  user-select: none;
+  cursor: pointer;
+}
